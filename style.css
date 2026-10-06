@@ -1,0 +1,116 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Hero */
+
+.hero-section {
+    background: #f8f9fa;
+}
+
+.hero-icon {
+    font-size: 220px;
+    color: #0d6efd;
+}
+
+
+/* About */
+
+.about-box {
+    background: #f8f9fa;
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+/* Services */
+
+.service-icon {
+    font-size: 45px;
+    color: #0d6efd;
+}
+
+
+/* Projects */
+
+.project-image {
+    height: 180px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: white;
+
+    font-size: 70px;
+}
+
+
+/* Team */
+
+.team-icon {
+    height: 180px;
+
+    background: #e9ecef;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 80px;
+
+    color: #0d6efd;
+}
+
+
+/* Cards */
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Back to top */
+
+#topButton {
+
+    position: fixed;
+
+    right: 25px;
+
+    bottom: 25px;
+
+    width: 45px;
+
+    height: 45px;
+
+    display: none;
+
+    z-index: 1000;
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .hero-icon {
+        font-size: 130px;
+    }
+
+}
